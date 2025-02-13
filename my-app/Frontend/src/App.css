@@ -1,0 +1,75 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input,
+.search-bar select,
+.search-bar button {
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-result,
+.favorite-list {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 0 10px;
+}
+
+.search-result ul,
+.favorite-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.search-result li,
+.favorite-list li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-result img,
+.favorite-list img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.search-result button,
+.favorite-list button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-result button:hover,
+.favorite-list button:hover {
+  background-color: #0056b3;
+}
+
+.favorite-list button {
+  background-color: #dc3545;
+}
+
+.favorite-list button:hover {
+  background-color: #bd2130;
+}
